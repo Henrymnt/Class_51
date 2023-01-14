@@ -1,0 +1,39 @@
+h1 {
+    color: #705000;
+    margin: 50px;
+    padding: 50px;
+}
+
+* {
+    border: solid;
+}
+.header{
+    background-color:#90D29B;
+    display : flex;
+    justify-content: space-between;
+
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p,h2{
+    text-align: center;
+    font-style: italic;
+
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color:#dddddd;
+    background-image: url('img.png');
+    background-size: 2cm;
+}
